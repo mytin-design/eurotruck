@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+html {
+    background: rgba(24, 4, 4, 0.877);
+    color: white;
+}
+body {
+    width: 70%;
+    padding: 20px;
+    margin: 200px auto;
+    background: linear-gradient( rgba(95, 94, 94, 0.685), rgba(221, 217, 217, 0.897), rgba(70, 66, 66, 0.692));
+}
+
+.diag_wrapper {
+    padding: 10px;
+    background: linear-gradient( rgba(32, 12, 12, 0.76), rgba(17, 9, 9, 0.432), rgba(27, 8, 8, 0.76));
+    border: 3px solid rgba(15, 7, 7, 0.185);
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.up_bar {
+    margin: 0 auto;
+    width: 20%;
+    height: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 30px 50px 20px rgba(255, 255, 255, 0.384);
+}
+
+.diag_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px 2px 10px;
+}
+
+.diag_title {
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.inner_stats_holder {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.truck_stats_container {
+    border: 3px solid rgba(83, 82, 82, 0.671);
+    background: #333;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    width: 30%;
+}
+
+.up_bar_intruck {
+    margin: 0 auto;
+    width: 50%;
+    height: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 30px 50px 20px rgba(255, 255, 255, 0.384);
+
+}
+
+.diag_vehicle_stats {
+    width: 100%;
+    background: #000;
+}
+
+.box {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.funds_wrapper {
+    border: 1px solid;
+    height: 40px;
+    padding: 5px;
+    font-size: 10px;
+    background: rgb(12, 3, 3);
+    border: 3px solid rgba(92, 89, 89, 0.904);
+    border-radius: 5px;
+}
+
+.up_funds_bar, .up_damage_bar, .down-bar {
+    margin: 0 auto;
+    width: 50%;
+    height: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 30px 50px 20px rgba(255, 255, 255, 0.384);
+
+}
+
+.my_money {
+    display: flex;
+    justify-content: space-around;
+}
+
+#amount {
+    background: #000;
+    color: gold;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sider {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+.damage_report_wrapper {
+    padding: 10px;
+    border: 3px solid rgba(46, 43, 43, 0.904);
+    border-radius: 5px;
+    background: rgba(12, 3, 3, 0.473);
+
+}
+
+.damage_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+}
+.vehicle_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(133, 130, 130, 0.897);
+}
+
+.damaged_area_data {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px 2px 10px;
+}
+
+.damaged_area_holder {
+    background: #000;
+    display: flex;
+    padding: 2px 10px 2px 10px;
+
+}
+
+.percentage_damage {
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+height: 25px; width: 50px;
+background: rgba(7, 102, 7, 0.842);
+border-right-color: #eee;
+border-left-color: #eee;
+}
+
+.truck_damage_funds_total {
+    margin-top: 130px;
+display: flex;
+justify-content: space-between;
+padding: 2px 10px 2px 10px;
+background: #000;
+
+}
+
+.truck_total_pay_box {
+    margin-top: 10px;
+display: flex;
+justify-content: space-between;
+padding: 2px 10px 2px 10px;
+background: #000;
+}
+
+.truck_damage_funds-subtotal {
+    color:rgb(255, 187, 0);
+}
+
+.damage_notification {
+    border: 3px solid rgb(146, 142, 142);
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 2px 10px 2px 10px;
+background: #000;
+
+
+}
+
+.d_notif {
+    color:rgb(255, 187, 0);
+    padding-right: 150px;
+}

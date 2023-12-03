@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: rgba(0, 0, 0, 0.87);
+}
+.radio_container {
+    padding: 10px;
+    height: 40rem;
+    width: 43%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.781);
+    color: #ffffff;
+    margin: 100px auto;
+    cursor: default;
+    
+}
+
+.up_bar {
+    width: 25%;
+    margin: 0px auto;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(167, 155, 155, 0.418);
+    box-shadow: 0px 0px 52px white;
+
+}
+
+/*
+.top_bar {
+    height: 5px;
+    width: 25%;
+    border-radius: 10px;
+    background: #eee;
+    box-shadow: 1px 2px 12px white;
+
+}*/
+
+abbr {
+    text-decoration: none;
+}
+.header_items {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio_title {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-player-title {
+    padding-left: 20px;
+}
+
+.radio_options {
+    display: flex;
+    gap: 10px;
+}
+button {
+    padding: 2px 10px 2px 10px;
+    font-size: large;
+    color: white;
+    width: 50%;
+    background: linear-gradient(#333, #888,#333);
+    border: none;
+}
+
+.music_player, .euro_file, .euro_docs {
+    color: rgba(228, 177, 9, 0.904);
+}
+
+.music_holder {
+    height: 63vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_c_b {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#222, #777,#222);
+
+}
+
+.down_bar {
+    width: 25%;
+    margin: 0px auto;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(20, 11, 11, 0.685);
+    box-shadow: 0px 0px 12px white;
+}
+
+#volume_btn {
+    border: 3px solid rgba(114, 107, 107, 0.863);
+    padding: 2px;
+    height: 30px;
+    width: 30px;
+    background: rgba(19, 11, 11, 0.397);
+}
+
+#volume_btn:hover {
+    border-color: #888;
+}
+
+@media only screen and (max-width: 900px) {
+    .radio_container {
+        width: 70%;
+    }
+
+    
+}
